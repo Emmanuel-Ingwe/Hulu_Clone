@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 html,
@@ -16,7 +17,7 @@ body {
 }
 
 a {
-	color: white;
+	color: rgb(219, 206, 206);
 	text-decoration: none;
 }
 
