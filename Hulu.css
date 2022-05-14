@@ -303,8 +303,13 @@ h4 {
 
 /* FOOTER */
 .footer {
-	background: #ebedf2;
+	/* background: #ebedf2; */
 	color: #333;
+	background: linear-gradient(-90deg, whitesmoke, red, yellow, magenta, blue, pink 70%, green, cyan);
+	height: 200px;
+	background-size: 440%;
+	/* background-position: 100%; */
+	animation: gradient 20s ease alternate;
 }
 
 .footer a {
@@ -505,3 +510,24 @@ h4 {
 	}
 }
 /* END QUERIES */
+
+
+.animate {
+	background: linear-gradient(-90deg, whitesmoke, red, yellow, magenta, blue, pink 70%, green, cyan);
+	height: 200px;
+	background-size: 440%;
+	/* background-position: 100%; */
+	animation: gradient 20s ease alternate;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0%;
+	}
+	50% {
+		background-position: 100%;
+	}
+	100% {
+		background-position: 0%;
+	}
+}
