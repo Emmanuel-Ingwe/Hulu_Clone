@@ -308,7 +308,7 @@ h4 {
 	background: linear-gradient(-90deg, whitesmoke, red, yellow, magenta, blue, pink 70%, green, cyan);
 	background-size: 440%;
 	/* background-position: 100%; */
-	animation: gradient 20s ease alternate;
+	animation: gradient 10s ease alternate infinite;
 }
 
 .footer a {
