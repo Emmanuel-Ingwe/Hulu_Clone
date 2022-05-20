@@ -501,7 +501,7 @@ h4 {
 	}
 
 	.footer-lists {
-		flex-direction: column;
+		flex-direction: row;
 	}
 
 	.modal .modal-box {
